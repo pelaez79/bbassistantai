@@ -1,0 +1,39 @@
+/* Best Buddy Assistant — tokens v1: navy #0B2239 / aqua #12B5A5 / ink #12212E / paper #F7FAFA / amber #F5A623 (sparingly) */
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:#12212E;background:#F7FAFA;line-height:1.55}
+a{color:#0B6E63}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header.site{background:#0B2239;color:#fff;padding:14px 0}
+header.site .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.logo{font-weight:800;font-size:1.25rem;letter-spacing:.2px;color:#fff;text-decoration:none}
+.logo span{color:#12B5A5}
+nav.lang a{color:#CFE6E3;text-decoration:none;font-weight:600;margin-left:14px}
+.hero{background:linear-gradient(160deg,#0B2239 0%,#0D3355 70%);color:#fff;padding:64px 0 56px}
+.hero h1{font-size:2.6rem;line-height:1.12;margin:0 0 14px}
+.hero p{font-size:1.15rem;max-width:640px;color:#DCECF2}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px;align-items:center}
+.btn{display:inline-block;background:#12B5A5;color:#06281F;font-weight:800;padding:14px 22px;border-radius:10px;text-decoration:none;font-size:1.05rem}
+.btn.ghost{background:transparent;color:#fff;border:2px solid #12B5A5}
+.price-note{font-weight:700;color:#FFE1A8}
+section{padding:52px 0}
+h2{font-size:1.7rem;margin:0 0 8px;color:#0B2239}
+.sub{color:#47606E;max-width:720px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px}
+.card{background:#fff;border:1px solid #DCE7EA;border-radius:12px;padding:20px}
+.card h3{margin:0 0 6px;font-size:1.05rem;color:#0B2239}
+ol.try{font-size:1.05rem;padding-left:22px}ol.try li{margin:8px 0}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:24px}
+.step{background:#0B2239;color:#E8F2F5;border-radius:12px;padding:20px}
+.step b{color:#12B5A5}
+.pricing{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px}
+.price{background:#fff;border:2px solid #12B5A5;border-radius:12px;padding:22px;text-align:center}
+.price .big{font-size:1.9rem;font-weight:800;color:#0B2239}
+details{background:#fff;border:1px solid #DCE7EA;border-radius:10px;padding:14px 18px;margin:10px 0}
+summary{font-weight:700;cursor:pointer;color:#0B2239}
+form{display:grid;gap:12px;max-width:560px;margin-top:18px}
+input,select,textarea{padding:12px;border:1px solid #B9CDD3;border-radius:8px;font:inherit;width:100%}
+button[type=submit]{background:#0B2239;color:#fff;font-weight:800;padding:14px;border:0;border-radius:10px;cursor:pointer;font-size:1rem}
+footer{background:#0B2239;color:#B9CDD3;padding:30px 0;font-size:.95rem}
+footer a{color:#12B5A5}
+.dark-band{background:#EAF3F3}
+@media (max-width:640px){.hero h1{font-size:2rem}.hero{padding:44px 0 40px}}
